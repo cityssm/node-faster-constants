@@ -6,7 +6,11 @@
   "exports": {
     ".": "./index.js",
     "./inventory": "./inventory/index.js",
-    "./inventory/items": "./inventory/items.js"
+    "./inventory/items": "./inventory/items.js",
+    "./inventory/items.js": "./inventory/items.js",
+    "./other": "./other/index.js",
+    "./other/eslint": "./other/eslint.js",
+    "./other/eslint.js": "./other/eslint.js"
   },
   "scripts": {
     "test": "node --test",
@@ -30,7 +34,7 @@
   "homepage": "https://github.com/cityssm/node-faster-constants#readme",
   "devDependencies": {
     "@types/node": "^22.13.4",
-    "eslint-config-cityssm": "^19.0.0",
+    "eslint-config-cityssm": "^20.0.0",
     "prettier-config-cityssm": "^1.0.0"
   }
 }

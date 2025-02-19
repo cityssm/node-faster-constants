@@ -15,5 +15,10 @@ declare const _default: {
             };
         };
     };
+    readonly other: {
+        readonly eslint: {
+            readonly cspellWords: readonly ["fasterwebcloud"];
+        };
+    };
 };
 export default _default;
