@@ -1,5 +1,7 @@
 # FASTER Web Constants
 
+[![DeepSource](https://app.deepsource.com/gh/cityssm/node-faster-constants.svg/?label=active+issues&show_trend=true&token=HHrRXKZqVYqHOKAFRFTbcr8_)](https://app.deepsource.com/gh/cityssm/node-faster-constants/)
+
 Constants used by multiple Node packages that work with the
 [FASTER Web Fleet Management System](https://fasterasset.com/products/fleet-management-software/).
 
