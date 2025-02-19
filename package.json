@@ -1,0 +1,36 @@
+{
+  "name": "@cityssm/faster-constants",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Constants used by multiple Node packages that work with the FASTER Fleet Management System",
+  "exports": {
+    ".": "./index.js",
+    "./inventory": "./inventory/index.js",
+    "./inventory/items": "./inventory/items.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "coverage": "c8 --reporter=lcov --reporter=text --reporter=text-summary node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/node-faster-constants.git"
+  },
+  "keywords": [
+    "faster-web",
+    "fmis",
+    "asset-management",
+    "fleet-management"
+  ],
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cityssm/node-faster-constants/issues"
+  },
+  "homepage": "https://github.com/cityssm/node-faster-constants#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "eslint-config-cityssm": "^19.0.0",
+    "prettier-config-cityssm": "^1.0.0"
+  }
+}
