@@ -1,9 +1,11 @@
 # FASTER Web Constants
 
+[![npm (scoped)](https://img.shields.io/npm/v/%40cityssm/faster-constants)](https://www.npmjs.com/package/@cityssm/faster-constants)
 [![DeepSource](https://app.deepsource.com/gh/cityssm/node-faster-constants.svg/?label=active+issues&show_trend=true&token=HHrRXKZqVYqHOKAFRFTbcr8_)](https://app.deepsource.com/gh/cityssm/node-faster-constants/)
+[![DeepSource](https://app.deepsource.com/gh/cityssm/node-faster-constants.svg/?label=code+coverage&token=HHrRXKZqVYqHOKAFRFTbcr8_)](https://app.deepsource.com/gh/cityssm/node-faster-constants/)
 
-Constants used by multiple Node packages that work with the
-[FASTER Web Fleet Management System](https://fasterasset.com/products/fleet-management-software/).
+**Constants used by multiple Node packages that work with the
+[FASTER Web Fleet Management System](https://fasterasset.com/products/fleet-management-software/).**
 
 This is not meant to be a complete list of every constant used in FASTER Web.
 
