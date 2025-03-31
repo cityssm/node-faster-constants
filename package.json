@@ -34,7 +34,7 @@
   "homepage": "https://github.com/cityssm/node-faster-constants#readme",
   "devDependencies": {
     "@types/node": "^22.13.4",
-    "eslint-config-cityssm": "^20.0.0",
+    "eslint-config-cityssm": "^22.2.2",
     "prettier-config-cityssm": "^1.0.0"
   }
 }
