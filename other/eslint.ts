@@ -1,3 +1,5 @@
+export const cspellWords = ['fasterwebcloud'] as const
+
 export default {
-  cspellWords: ['fasterwebcloud']
+  cspellWords
 } as const

@@ -1,6 +1,6 @@
 {
   "name": "@cityssm/faster-constants",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "Constants used by multiple Node packages that work with the FASTER Fleet Management System",
   "exports": {
@@ -10,7 +10,10 @@
     "./inventory/items.js": "./inventory/items.js",
     "./other": "./other/index.js",
     "./other/eslint": "./other/eslint.js",
-    "./other/eslint.js": "./other/eslint.js"
+    "./other/eslint.js": "./other/eslint.js",
+    "./vendors": "./vendors/index.js",
+    "./vendors/vendors": "./vendors/index.js",
+    "./vendors/vendors.js": "./vendors/vendors.js"
   },
   "scripts": {
     "test": "node --test",
@@ -33,8 +36,8 @@
   },
   "homepage": "https://github.com/cityssm/node-faster-constants#readme",
   "devDependencies": {
-    "@types/node": "^22.13.4",
-    "eslint-config-cityssm": "^20.0.0",
+    "@types/node": "^22.15.19",
+    "eslint-config-cityssm": "^23.0.1",
     "prettier-config-cityssm": "^1.0.0"
   }
 }

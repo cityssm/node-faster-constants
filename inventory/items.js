@@ -1,14 +1,17 @@
+export const itemName = {
+    inputId: 'PartNameRadTextBox',
+    maxLength: 40
+};
+export const binLocation = {
+    inputId: 'BinLocationRadTextBox',
+    maxLength: 20
+};
+export const alternateLocation = {
+    inputId: 'AlternateLocationRadTextBox',
+    maxLength: 20
+};
 export default {
-    itemName: {
-        inputId: 'PartNameRadTextBox',
-        maxLength: 40
-    },
-    binLocation: {
-        inputId: 'BinLocationRadTextBox',
-        maxLength: 20
-    },
-    alternateLocation: {
-        inputId: 'AlternateLocationRadTextBox',
-        maxLength: 20
-    }
+    itemName,
+    binLocation,
+    alternateLocation
 };
