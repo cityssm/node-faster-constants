@@ -1,8 +1,24 @@
 {
   "name": "@cityssm/faster-constants",
-  "version": "0.3.0",
-  "type": "module",
+  "version": "0.3.1",
   "description": "Constants used by multiple Node packages that work with the FASTER Fleet Management System",
+  "keywords": [
+    "faster-web",
+    "fmis",
+    "asset-management",
+    "fleet-management"
+  ],
+  "homepage": "https://github.com/cityssm/node-faster-constants#readme",
+  "bugs": {
+    "url": "https://github.com/cityssm/node-faster-constants/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/node-faster-constants.git"
+  },
+  "license": "MIT",
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "type": "module",
   "exports": {
     ".": "./index.js",
     "./inventory": "./inventory/index.js",
@@ -16,28 +32,12 @@
     "./vendors/vendors.js": "./vendors/vendors.js"
   },
   "scripts": {
-    "test": "node --test",
-    "coverage": "c8 --reporter=lcov --reporter=text --reporter=text-summary node --test"
+    "coverage": "c8 --reporter=lcov --reporter=text --reporter=text-summary node --test",
+    "test": "node --test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cityssm/node-faster-constants.git"
-  },
-  "keywords": [
-    "faster-web",
-    "fmis",
-    "asset-management",
-    "fleet-management"
-  ],
-  "author": "The Corporation of the City of Sault Ste. Marie",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cityssm/node-faster-constants/issues"
-  },
-  "homepage": "https://github.com/cityssm/node-faster-constants#readme",
   "devDependencies": {
-    "@types/node": "^22.15.19",
-    "eslint-config-cityssm": "^23.0.1",
+    "@types/node": "^22.15.21",
+    "eslint-config-cityssm": "^24.0.0",
     "prettier-config-cityssm": "^1.0.0"
   }
 }

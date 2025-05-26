@@ -1,4 +1,6 @@
 .github/
+.vscode/
+
 coverage/
 test/
 
@@ -7,6 +9,7 @@ test/
 .eslintignore
 .gitignore
 .prettierignore
+
 eslint.config.*
 prettier.config.*
 tsconfig.json

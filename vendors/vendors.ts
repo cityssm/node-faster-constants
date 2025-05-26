@@ -19,15 +19,23 @@ export const vendorCity = {
 }
 
 export const vendorState = {
-  minLength: 3,
-  maxLength: 30
+  maxLength: 30,
+  minLength: 3
 }
 
+export const vendorCategories = [
+  'Asset',
+  'Fuel',
+  'Inventory',
+  'Sublet'
+] as const
+
 export default {
+  vendorAddress,
+  vendorBusinessName,
+  vendorCategories,
+  vendorCity,
   vendorCode,
   vendorName,
-  vendorBusinessName,
-  vendorAddress,
-  vendorCity,
   vendorState
 } as const

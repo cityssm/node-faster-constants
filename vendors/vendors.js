@@ -17,11 +17,13 @@ export const vendorState = {
     minLength: 3,
     maxLength: 30
 };
+export const vendorCategories = ['Asset', 'Fuel', 'Inventory', 'Sublet'];
 export default {
     vendorCode,
     vendorName,
     vendorBusinessName,
     vendorAddress,
     vendorCity,
-    vendorState
+    vendorState,
+    vendorCategories
 };

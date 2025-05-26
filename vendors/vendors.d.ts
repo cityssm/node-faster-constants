@@ -17,6 +17,7 @@ export declare const vendorState: {
     minLength: number;
     maxLength: number;
 };
+export declare const vendorCategories: readonly ["Asset", "Fuel", "Inventory", "Sublet"];
 declare const _default: {
     readonly vendorCode: {
         maxLength: number;
@@ -37,5 +38,6 @@ declare const _default: {
         minLength: number;
         maxLength: number;
     };
+    readonly vendorCategories: readonly ["Asset", "Fuel", "Inventory", "Sublet"];
 };
 export default _default;

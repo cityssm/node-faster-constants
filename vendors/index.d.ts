@@ -19,6 +19,7 @@ declare const _default: {
             minLength: number;
             maxLength: number;
         };
+        readonly vendorCategories: readonly ["Asset", "Fuel", "Inventory", "Sublet"];
     };
 };
 export default _default;
